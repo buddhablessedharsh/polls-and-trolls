@@ -225,3 +225,18 @@ body.lightbox-open{overflow:hidden}
 .source-sidebar-card .source-list a{font-weight:bold;text-decoration:underline;color:#477d60;font-size:.78rem;line-height:1.3}
 .source-sidebar-card .source-list p{font-size:.72rem;line-height:1.35;color:#71847b;margin:4px 0 0}
 @media(max-width:900px){.source-sidebar{position:static}.source-sidebar-card{max-height:none}}
+
+/* Mobile font: Comic Neue on phones only */
+@media screen and (max-width: 767px) {
+  html,
+  body,
+  body *,
+  body *::before,
+  body *::after,
+  button,
+  input,
+  select,
+  textarea {
+    font-family: "Comic Neue", sans-serif !important;
+  }
+}
